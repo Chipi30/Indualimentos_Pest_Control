@@ -1,0 +1,8 @@
+.w-full.surface-card {
+  border-radius: 54px;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.surface-ground{
+  background-color: rgba(164, 255, 121, 0.334) !important;
+}
