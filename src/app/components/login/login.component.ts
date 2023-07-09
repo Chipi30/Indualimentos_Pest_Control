@@ -18,8 +18,6 @@ export class LoginComponent {
   login(){
     console.log(this.user.user);
     console.log(this.user.password);
-
-
   }
 
 

@@ -1,8 +1,62 @@
-.w-full.surface-card {
+/*Card Login*/
+:host ::ng-deep .w-full.surface-card {
   border-radius: 54px;
-  background-color: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
 }
 
-.surface-ground{
-  background-color: rgba(164, 255, 121, 0.334) !important;
+/*Fondo*/
+:host ::ng-deep .surface-ground {
+
+  background-image: url("src/assets/layout/images/fondo.jpg")!important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+
 }
+
+/*Botón*/
+:host ::ng-deep .w-full.p-3.text-xl {
+
+  border-radius: 54px;
+  background-color: rgb(0, 0, 0);
+
+}
+
+/*imagen usuario*/
+:host ::ng-deep .mb-3 {
+
+  position: relative;
+  left: 100px;
+  size: 512px;
+
+}
+
+/*exto sigin*/
+:host ::ng-deep .text-600.font-medium {
+
+ position: relative;
+ left: -40px;
+
+}
+
+/*Logo*/
+:host ::ng-deep .mb-5.w-15rem.flex-shrink-0 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+
+}
+
+:host ::nrg-deep .mb-5{
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
