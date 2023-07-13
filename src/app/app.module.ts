@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ButtonModule } from 'primeng/button';
 import { PasswordModule } from 'primeng/password';
 import { CheckboxModule } from 'primeng/checkbox';
+import {CarouselModule} from 'primeng/carousel';
 
 // nuevos modulos
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -18,6 +19,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
     AppComponent,
     LoginComponent,
     PrincipalComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
     ReactiveFormsModule,
     ButtonModule,
     PasswordModule,
-    CheckboxModule
+    CheckboxModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

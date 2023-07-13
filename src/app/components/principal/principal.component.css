@@ -1,0 +1,14 @@
+.product-image {
+  width: 200px;
+  height: 200px;
+}
+:host ::ng-deep .surface-ground {
+
+  background-image: url("src/assets/layout/images/fondo.jpg")!important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+
+}
+
+
