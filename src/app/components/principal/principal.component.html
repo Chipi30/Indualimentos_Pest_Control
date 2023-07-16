@@ -1,22 +1,24 @@
 <div class="global" >
-  <div class="grid p-fluid">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maxinum-scalable=1.0, mininum-scalable=1.0">
+  <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
     <div class="col-12">
+        <img src="assets/layout/images/logo.png" class="logo">
+        <img src="assets/layout/images/logo2.png" class="logo2">
         <div class="card">
-            <h5>Carousel</h5>
-            <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="false" [responsiveOptions]="carouselResponsiveOptions">
-              <ng-template let-product pTemplate="item">
-                <div class="border-round m-2 text-center p-2" style="border: 1px solid var(--surface-d)">
-                  <div class="my-5">
-                    <img src="{{product.imageUrl}}" [alt]="product.name" class="shadow-4 product-image"/>
-                  </div>
-                  <label>Precio: ${{product.price}}</label>
+          <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="false" [responsiveOptions]="carouselResponsiveOptions">
+            <ng-template let-product pTemplate="item">
+                <div class="my-5">
+                  <img src="{{product.imageUrl}}" [alt]="product.name" class="shadow-4 product-image"/>
                 </div>
-              </ng-template>
-            </p-carousel>
-
+            </ng-template>
+          </p-carousel>
         </div>
-    </div>
-  <button pButton pRipple type="button" label="Primary" class="p-button-raised" routerLink="/login"></button>
-</div>
+        <p-chip label="Instagram" image="assets/layout/images/instagram.png" class="redes"></p-chip>
+        <p-chip label="Facebook" image="assets/layout/images/facebook.png" class="redes2"></p-chip>
+        <p-chip label="Telegram" image="assets/layout/images/telegram.png" class="redes3"></p-chip>
 
+        <button pButton pRipple type="button" label="Login" class="button" routerLink="/login"></button><br><br>
+        <button pButton pRipple type="button" label="Sing in " class="button" routerLink="/singin"></button>
+    </div>
+</div>
 

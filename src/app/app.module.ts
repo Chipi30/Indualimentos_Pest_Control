@@ -9,16 +9,21 @@ import { ButtonModule } from 'primeng/button';
 import { PasswordModule } from 'primeng/password';
 import { CheckboxModule } from 'primeng/checkbox';
 import {CarouselModule} from 'primeng/carousel';
+import { ChipModule } from 'primeng/chip';
 
 // nuevos modulos
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { SinginComponent } from './components/singin/singin.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     PrincipalComponent,
+    SinginComponent,
+    AdminComponent
 
   ],
   imports: [
@@ -29,7 +34,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
     ButtonModule,
     PasswordModule,
     CheckboxModule,
-    CarouselModule
+    CarouselModule,
+    ChipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

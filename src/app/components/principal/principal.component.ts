@@ -3,12 +3,11 @@ import { Component } from '@angular/core';
 enum InventoryStatus {
   InStock = 'In Stock',
   OutOfStock = 'Out of Stock',
-  LimitedStock = 'Limited Stock'
+  LimitedStock = 'Limited Stock',
 }
 
 interface Product {
   name: string;
-  price: number;
   imageUrl: string;
   inventoryStatus?: InventoryStatus;
 }
@@ -23,71 +22,59 @@ export class PrincipalComponent {
   products: Product[] = [
     {
       name: 'Producto 1',
-      price: 10.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity.png',
+      imageUrl: 'assets/layout/images/indupest/ima1.jpg',
       inventoryStatus: InventoryStatus.InStock
     },
     {
       name: 'Producto 2',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity2.png',
+      imageUrl: 'assets/layout/images/indupest/ima2.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     {
       name: 'Producto 3',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity3.jpg',
+      imageUrl: 'assets/layout/images/indupest/ima3.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     {
       name: 'Producto 4',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity4.png',
+      imageUrl: 'assets/layout/images/indupest/ima4.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     {
       name: 'Producto 5',
-      price: 10.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity5.png',
+      imageUrl: 'assets/layout/images/indupest/ima5.jpg',
       inventoryStatus: InventoryStatus.InStock
     },
     {
       name: 'Producto 6',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity6.png',
+      imageUrl: 'assets/layout/images/indupest/ima6.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     {
       name: 'Producto 7',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity7.png',
+      imageUrl: 'assets/layout/images/indupest/ima7.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     {
       name: 'Producto 8',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity8.png',
+      imageUrl: 'assets/layout/images/indupest/ima8.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     {
       name: 'Producto 9',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity9.png',
+      imageUrl: 'assets/layout/images/indupest/ima9.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },  {
       name: 'Producto 10',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity10.png',
+      imageUrl: 'assets/layout/images/indupest/ima10.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },  {
       name: 'Producto 11',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity11.png',
+      imageUrl: 'assets/layout/images/indupest/ima11.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },  {
       name: 'Producto 12',
-      price: 19.99,
-      imageUrl: 'assets/layout/images/carrucel/lumity12.png',
+      imageUrl: 'assets/layout/images/indupest/ima12.jpg',
       inventoryStatus: InventoryStatus.OutOfStock
     },
     // Agrega más objetos de producto con la información de las imágenes
@@ -110,4 +97,6 @@ export class PrincipalComponent {
       numScroll: 1
     }
   ];
+
+
 }
