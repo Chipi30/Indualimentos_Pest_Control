@@ -34,7 +34,7 @@ public class AdminController {
     }
 
     @PutMapping("/updateAdmin")
-    public Optional<Administrator> updateStudent(@RequestBody Administrator admin){
+    public Optional<Administrator> updateAdmin(@RequestBody Administrator admin){
         Optional<Administrator> findAdmin = adminService.findAdminById(admin.getCedula());
 
         if(findAdmin.isPresent()) {
