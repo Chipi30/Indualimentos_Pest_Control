@@ -16,6 +16,7 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { SinginComponent } from './components/singin/singin.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { EmpleadoComponent } from './empleado/empleado.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AdminComponent } from './components/admin/admin.component';
     LoginComponent,
     PrincipalComponent,
     SinginComponent,
-    AdminComponent
+    AdminComponent,
+    EmpleadoComponent
 
   ],
   imports: [
