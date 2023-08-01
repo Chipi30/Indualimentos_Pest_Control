@@ -1,6 +1,14 @@
+:host ::ng-deep .global{
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 16px;
+}
+
 .product-image {
-  width: 180px;
-  height: 180px;
+  width: 12em;
+  height: 12em;
   box-sizing: border-box;
 }
 
@@ -16,48 +24,84 @@
   background-position: center !important;
 }
 
-/*Botón*/
-:host ::ng-deep .button {
-  float: right;
-  border-radius: 54px;
-  border-color: black;
-  background-color: rgb(0, 0, 0);
-}
-
 /*Imagenes*/
 :host ::ng-deep .logo{
-  width: 160px;
-  height: 160px;
-  float: left;
-  margin-right: auto;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 2%;
+  top: 3%;
 }
 
 :host ::ng-deep .logo2{
-  width: 350px;
-  height: 160px;
+  width: 22em;
+  height: 10em;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 38%;
+  top: 3%;
 }
 
 :host ::ng-deep .user{
-  width: 100px;
-  height: 100px;
+  width: 7em;
+  height: 7em;
   float: right;
-  margin-left: auto;
+  position: absolute;
+  left: 88%;
+  top: 3%;
 }
 
-:host ::ng-deep .mb-5 {
-  font-family: Arial, sans-serif;
+:host ::ng-deep .btn1{
+  display: inline-block;
+  background-color: #44e4e4c7;
+  position: absolute;
+  left: 20%;
+  top: 36%;
+  width: 15em;
+  height: 4em;
+  border: none;
+}
+
+:host ::ng-deep .btn2{
+  display: inline-block;
+  background-color: #44e4e4c7;
+  position: absolute;
+  left: 40%;
+  top: 36%;
+  width: 15em;
+  height: 4em;
+  border: none;
+}
+:host ::ng-deep .btn3{
+  display: inline-block;
+  background-color: #44e4e4c7;
+  position: absolute;
+  left: 60%;
+  top: 36%;
+  width: 15em;
+  height: 4em;
+  border: none;
+}
+
+:host ::ng-deep .nav-enlace{
+  display: inline-block;
+  text-decoration: none;
+  left: 38%;
+  margin-right: 100px;
+}
+
+:host ::ng-deep .nav-enlace:hover{
+  background: #CDF94D ;
+}
+
+:host ::ng-deep .menu{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 
-:host ::ng-deep  .min-h-screen {
-  min-height: 97.5vh !important;
-}
 
 
-:host ::ng-deep  .min-w-screen {
-  min-width: 95vw !important;
-}
+
+
+

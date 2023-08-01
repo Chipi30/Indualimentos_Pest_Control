@@ -1,17 +1,21 @@
 
 :host ::ng-deep .global{
+  width: 100%;
+  max-width: 100em;
   margin: 0 auto;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .product-image {
-  width: 180px;
-  height: 180px;
+  width: 11.25em;
+  height: 11.25em;
   box-sizing: border-box;
 }
 
 /* Fondo */
 :host ::ng-deep body, :host ::ng-deep html {
+  max-width: 100em;
   overflow: hidden;
 }
 
@@ -33,14 +37,14 @@
 
 /*Imagenes*/
 :host ::ng-deep .logo{
-  width: 160px;
-  height: 160px;
-  margin-right: 325px;
+  width: 10em;
+  height: 10em;
+  margin-right: 20.3125em;
 }
 
 :host ::ng-deep .logo2{
-  width: 350px;
-  height: 160px;
+  width: 21.875em;
+  height: 10em;
 }
 
 :host ::ng-deep .mb-5 {
@@ -59,16 +63,16 @@
 
 /*redes*/
 :host ::ng-deep .redes{
-  margin-left: 200px;
-  margin-right: 170px;
+  margin-left: 12.5em;
+  margin-right: 10.625em;
 }
 
 :host ::ng-deep .redes2{
-  margin-right: 170px;
+  margin-right: 10.625em;
 }
 
 :host ::ng-deep .redes3{
-  margin-right: 170px;
+  margin-right: 10.625em;
 }
 
 
