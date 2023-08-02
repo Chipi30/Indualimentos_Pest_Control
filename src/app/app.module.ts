@@ -18,6 +18,8 @@ import { SinginComponent } from './components/singin/singin.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { EmpleadoComponent } from './components/empleado/empleado.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
