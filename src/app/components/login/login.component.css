@@ -5,7 +5,7 @@
 
 /* Estilos de la imagen de fondo */
 :host ::ng-deep .surface-ground {
-  background-image: url("src/assets/layout/images/fondo1.jpeg");
+  background-image: url("src/assets/layout/images/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

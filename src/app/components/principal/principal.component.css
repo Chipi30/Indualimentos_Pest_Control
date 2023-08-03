@@ -16,7 +16,7 @@
 }
 
 :host ::ng-deep .surface-ground {
-  background-image: url("src/assets/layout/images/fondo1.jpeg")!important;
+  background-image: url("src/assets/layout/images/fondo.jpg")!important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
