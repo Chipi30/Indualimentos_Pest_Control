@@ -18,6 +18,7 @@ import { SinginComponent } from './components/singin/singin.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { EmpleadoComponent } from './components/empleado/empleado.component';
 import { AgrEmpleadoComponent } from './components/agr-empleado/agr-empleado.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
 
 
 
@@ -29,7 +30,8 @@ import { AgrEmpleadoComponent } from './components/agr-empleado/agr-empleado.com
     SinginComponent,
     AdminComponent,
     EmpleadoComponent,
-    AgrEmpleadoComponent
+    AgrEmpleadoComponent,
+    ServiciosComponent
 
   ],
   imports: [

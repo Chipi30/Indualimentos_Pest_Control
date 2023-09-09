@@ -1,39 +1,57 @@
-/* Fondo */
-:host ::ng-deep body, :host ::ng-deep html {
-    overflow: hidden;
-  }
-  
-  :host ::ng-deep .surface-ground {
-    background-image: url("src/assets/layout/images/fondo1.jpeg")!important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-  }
-:host ::ng-deep .services {
-    position: absolute;
-    top: 100px; /* Ajusta la distancia desde la parte superior de la página */
-    left: 200px; /* Ajusta la distancia desde la izquierda de la página */
-    float: right;
-    border-radius: 54px;
-    border-color:black;
-    background-color: white;
-    
-  }
-  :host ::ng-deep .logo{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    float: left;
-    margin-right: auto;
-  }
-  
-  :host ::ng-deep .logo2{
-    position: absolute;
-    width: 350px;
-    height: 160px;    
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
+/* styles.css o styles.scss */
 
- 
+/* Estilos generales para pantallas grandes */
+@media (min-width: 768px) {
+  /* Agrega estilos para pantallas más grandes aquí */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  /* Agrega estilos para pantallas más pequeñas aquí */
+}
+
+
+/* Fondo */
+:host body, :host html {
+  overflow: hidden;
+}
+
+:host .surface-ground {
+  background-image: url("src/assets/layout/images/fondo.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+:host.services {
+  position: absolute;
+  top: 100px; /* Ajusta la distancia desde la parte superior de la página */
+  left: 200px; /* Ajusta la distancia desde la izquierda de la página */
+  float: right;
+  border-radius: 54px;
+  border-color: black;
+  background-color: white;
+
+}
+
+:host.clientes {
+  position: absolute;
+  top: 100px; /* Ajusta la distancia desde la parte superior de la página */
+  left: 200px; /* Ajusta la distancia desde la izquierda de la página */
+  float: right;
+  border-radius: 54px;
+  border-color: black;
+  background-color: white;
+
+}
+
+:host.agenda {
+  position: absolute;
+  top: 100px; /* Ajusta la distancia desde la parte superior de la página */
+  left: 200px; /* Ajusta la distancia desde la izquierda de la página */
+  float: right;
+  border-radius: 54px;
+  border-color: black;
+  background-color: white;
+}
+
