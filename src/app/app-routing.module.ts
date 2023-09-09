@@ -6,6 +6,8 @@ import {SinginComponent} from './components/singin/singin.component';
 import {AdminComponent} from './components/admin/admin.component';
 import {EmpleadoComponent} from './components/empleado/empleado.component';
 import {ServiciosComponent} from './components/servicios/servicios.component';
+import {AgendaComponent} from "./components/agenda/agenda.component";
+import {AgregarservicioComponent} from "./components/agregarservicio/agregarservicio.component";
 
 const routes: Routes = [
 
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path: 'admin', component: AdminComponent},
   {path: 'empleado', component: EmpleadoComponent},
   {path: 'servicios', component: ServiciosComponent},
+  {path: 'agenda', component:AgendaComponent},
+  {path: 'agregarservicio',component:AgregarservicioComponent},
   {path: 'homePage', component: PrincipalComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'homePage'}
 

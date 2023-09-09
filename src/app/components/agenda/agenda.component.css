@@ -9,6 +9,8 @@
 @media (max-width: 767px) {
   /* Agrega estilos para pantallas más pequeñas aquí */
 }
+
+
 /* Fondo */
 :host body, :host html {
   overflow: hidden;

@@ -19,6 +19,8 @@ import { AdminComponent } from './components/admin/admin.component';
 import { EmpleadoComponent } from './components/empleado/empleado.component';
 import { AgrEmpleadoComponent } from './components/agr-empleado/agr-empleado.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
+import { AgendaComponent } from './components/agenda/agenda.component';
+import { AgregarservicioComponent } from './components/agregarservicio/agregarservicio.component';
 
 
 
@@ -31,7 +33,9 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
     AdminComponent,
     EmpleadoComponent,
     AgrEmpleadoComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    AgendaComponent,
+    AgregarservicioComponent
 
   ],
   imports: [

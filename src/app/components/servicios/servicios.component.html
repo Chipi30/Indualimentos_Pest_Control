@@ -1,1 +1,36 @@
-<p>servicios works!</p>
+<div class="global">
+
+  <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
+    <div class="col-12">
+      <img src="assets/layout/images/logo.png" class="logo">
+
+      <table>
+        <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Tipo de Servicio</th>
+          <th>Precio por Metro Cúbico</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let servicio of servicios">
+          <td>{{ servicio.id }}</td>
+          <td>{{ servicio.nombre }}</td>
+          <td>{{ servicio.descripcion }}</td>
+          <td>{{ servicio.tipoServicio }}</td>
+          <td>{{ servicio.precioMetroCubico }}</td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      <a routerLink='/agregarservicio'>
+        <button class="agservicio">Agregar Servicio</button>
+      </a>
+
+    </div>
+  </div>
+
+</div>
