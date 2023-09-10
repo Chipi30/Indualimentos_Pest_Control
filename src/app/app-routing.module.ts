@@ -8,6 +8,8 @@ import {EmpleadoComponent} from './components/empleado/empleado.component';
 import {ServiciosComponent} from './components/servicios/servicios.component';
 import {AgendaComponent} from "./components/agenda/agenda.component";
 import {AgregarservicioComponent} from "./components/agregarservicio/agregarservicio.component";
+import {ClientesComponent} from "./components/clientes/clientes.component";
+import {AgregarclienteComponent} from "./components/agregarcliente/agregarcliente.component";
 
 const routes: Routes = [
 
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path: 'servicios', component: ServiciosComponent},
   {path: 'agenda', component:AgendaComponent},
   {path: 'agregarservicio',component:AgregarservicioComponent},
+  {path: 'clientes',component:ClientesComponent},
+  {path: 'agregarcliente',component:AgregarclienteComponent},
   {path: 'homePage', component: PrincipalComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'homePage'}
 

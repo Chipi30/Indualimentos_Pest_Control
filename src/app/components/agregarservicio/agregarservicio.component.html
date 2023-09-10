@@ -2,7 +2,8 @@
   <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
     <div class="col-12">
 
-
+      <img src="assets/layout/images/logo.png" class="logo">
+      <h1>AGREGAR SERVICIO</h1>
       <form (ngSubmit)="agregarServicio()" #servicioForm="ngForm">
         <div class="form-group">
           <label for="id">ID:</label>
@@ -25,7 +26,7 @@
           <input type="number" id="precioMetroCubico" name="precioMetroCubico"
                  [(ngModel)]="nuevoServicio.precioMetroCubico" required>
         </div>
-        <button type="submit">Agregar Servicio</button>
+        <button type="submit">Agregar </button>
       </form>
     </div>
   </div>

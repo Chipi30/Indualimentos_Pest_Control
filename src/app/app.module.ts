@@ -21,6 +21,8 @@ import { AgrEmpleadoComponent } from './components/agr-empleado/agr-empleado.com
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { AgendaComponent } from './components/agenda/agenda.component';
 import { AgregarservicioComponent } from './components/agregarservicio/agregarservicio.component';
+import { ClientesComponent } from './components/clientes/clientes.component';
+import { AgregarclienteComponent } from './components/agregarcliente/agregarcliente.component';
 
 
 
@@ -35,7 +37,9 @@ import { AgregarservicioComponent } from './components/agregarservicio/agregarse
     AgrEmpleadoComponent,
     ServiciosComponent,
     AgendaComponent,
-    AgregarservicioComponent
+    AgregarservicioComponent,
+    ClientesComponent,
+    AgregarclienteComponent
 
   ],
   imports: [
