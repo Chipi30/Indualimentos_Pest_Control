@@ -1,33 +1,40 @@
-<div class="global">
-  <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
-    <div class="col-12">
-      <h1>AGREGAR CLIENTE</h1>
+<div class="surface-ground  min-h-screen min-w-screen overflow-hidden">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h1 class="text-center">AGREGAR CLIENTE</h1>
       <form (ngSubmit)="agregarCliente()" #clienteForm="ngForm">
         <div class="form-group">
           <label for="id">ID:</label>
-          <input type="number" id="id" name="id" [(ngModel)]="nuevoCliente.id" required>
+          <input type="number" id="id" name="id" [(ngModel)]="nuevoCliente.id" class="form-control" required>
         </div>
         <div class="form-group">
           <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" [(ngModel)]="nuevoCliente.nombre" required>
+          <input type="text" id="nombre" name="nombre" [(ngModel)]="nuevoCliente.nombre" class="form-control" required>
         </div>
         <div class="form-group">
           <label for="apellido">Apellido:</label>
-          <input type="text" id="apellido" name="apellido" [(ngModel)]="nuevoCliente.apellido" required>
+          <input type="text" id="apellido" name="apellido" [(ngModel)]="nuevoCliente.apellido" class="form-control"
+                 required>
         </div>
         <div class="form-group">
           <label for="direccion">Dirección:</label>
-          <input type="text" id="direccion" name="direccion" [(ngModel)]="nuevoCliente.direccion" required>
+          <input type="text" id="direccion" name="direccion" [(ngModel)]="nuevoCliente.direccion" class="form-control"
+                 required>
         </div>
         <div class="form-group">
           <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono" [(ngModel)]="nuevoCliente.telefono" required>
+          <input type="tel" id="telefono" name="telefono" [(ngModel)]="nuevoCliente.telefono" class="form-control"
+                 required>
         </div>
-        <button type="submit">Agregar Cliente</button>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Agregar Cliente</button>
+        </div>
       </form>
-
-
     </div>
   </div>
 </div>
+
+
+
+
 
