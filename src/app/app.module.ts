@@ -25,6 +25,7 @@ import { ClientesComponent } from './components/clientes/clientes.component';
 import { AgregarclienteComponent } from './components/agregarcliente/agregarcliente.component';
 import "@angular/common/http"
 import { HttpClientModule } from '@angular/common/http';
+import {TableModule} from "primeng/table";
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { HttpClientModule } from '@angular/common/http';
     CheckboxModule,
     CarouselModule,
     HttpClientModule,
-    ChipModule
+    ChipModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
