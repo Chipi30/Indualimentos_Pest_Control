@@ -18,6 +18,11 @@ import { SinginComponent } from './components/singin/singin.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { EmpleadoComponent } from './components/empleado/empleado.component';
 import { AgrEmpleadoComponent } from './components/agr-empleado/agr-empleado.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
+import { AgendaComponent } from './components/agenda/agenda.component';
+import { AgregarservicioComponent } from './components/agregarservicio/agregarservicio.component';
+import { ClientesComponent } from './components/clientes/clientes.component';
+import { AgregarclienteComponent } from './components/agregarcliente/agregarcliente.component';
 
 
 
@@ -29,7 +34,12 @@ import { AgrEmpleadoComponent } from './components/agr-empleado/agr-empleado.com
     SinginComponent,
     AdminComponent,
     EmpleadoComponent,
-    AgrEmpleadoComponent
+    AgrEmpleadoComponent,
+    ServiciosComponent,
+    AgendaComponent,
+    AgregarservicioComponent,
+    ClientesComponent,
+    AgregarclienteComponent
 
   ],
   imports: [
