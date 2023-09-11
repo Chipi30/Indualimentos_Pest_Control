@@ -23,7 +23,8 @@ import { AgendaComponent } from './components/agenda/agenda.component';
 import { AgregarservicioComponent } from './components/agregarservicio/agregarservicio.component';
 import { ClientesComponent } from './components/clientes/clientes.component';
 import { AgregarclienteComponent } from './components/agregarcliente/agregarcliente.component';
-
+import "@angular/common/http"
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { AgregarclienteComponent } from './components/agregarcliente/agregarclie
     PasswordModule,
     CheckboxModule,
     CarouselModule,
+    HttpClientModule,
     ChipModule
   ],
   providers: [],
