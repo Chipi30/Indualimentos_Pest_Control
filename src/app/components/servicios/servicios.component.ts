@@ -1,5 +1,5 @@
-import {Component, Input} from '@angular/core';
-import {Servicio} from '../agregarservicio/servicio.model';
+import {Component, OnInit} from '@angular/core';
+import {ServicioService} from './servicio.service';
 
 @Component({
   selector: 'app-servicios',
@@ -7,10 +7,15 @@ import {Servicio} from '../agregarservicio/servicio.model';
   styleUrls: ['./servicios.component.css']
 })
 export class ServiciosComponent {
-  @Input() servicios: Servicio[];
+   servicios: any[]=[];
 
-  constructor() {
-    this.servicios=[];
+  constructor(private servicioService:ServicioService) {
+
+  }
+
+  ngOnInit(){
+    this.servicios=this.servicioService.obtenerServicios();
+    console.log(this.servicios);
   }
 }
 
