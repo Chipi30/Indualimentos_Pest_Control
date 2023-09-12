@@ -4,8 +4,8 @@
     <div class="col-12">
       <img src="assets/layout/images/logo.png" class="logo">
 
-      <table>
-        <thead>
+      <p-table [value]="servicios" [paginator]="true" [rows]="10">
+        <ng-template pTemplate="header">
         <tr>
           <th>ID</th>
           <th>Nombre</th>
@@ -13,8 +13,8 @@
           <th>Tipo de Servicio</th>
           <th>Precio por Metro Cúbico</th>
         </tr>
-        </thead>
-        <tbody>
+        </ng-template>
+        <ng-template pTemplate="body" let-servicios>
         <tr *ngFor="let servicio of servicios">
           <td>{{ servicio.id }}</td>
           <td>{{ servicio.nombre }}</td>
@@ -22,8 +22,8 @@
           <td>{{ servicio.tipoServicio }}</td>
           <td>{{ servicio.precioMetroCubico }}</td>
         </tr>
-        </tbody>
-      </table>
+        </ng-template>
+      </p-table>
 
 
       <a routerLink='/agregarservicio'>

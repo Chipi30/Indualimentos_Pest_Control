@@ -2,7 +2,7 @@
   <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
     <div class="col-12">
       <img src="assets/layout/images/logo.png" class="logo">
-
+        <h3>Listado de clientes</h3>
       <!-- Utiliza el componente p-table de PrimeNG -->
       <p-table [value]="clientes" [paginator]="true" [rows]="10">
         <ng-template pTemplate="header">
@@ -15,7 +15,9 @@
 
           </tr>
         </ng-template>
+
         <ng-template pTemplate="body" let-cliente>
+
           <tr>
             <td>{{ cliente.id }}</td>
             <td>{{ cliente.nombre }}</td>

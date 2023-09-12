@@ -26,6 +26,7 @@ import { AgregarclienteComponent } from './components/agregarcliente/agregarclie
 import "@angular/common/http"
 import { HttpClientModule } from '@angular/common/http';
 import {TableModule} from "primeng/table";
+import {InputTextModule} from "primeng/inputtext";
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import {TableModule} from "primeng/table";
     CarouselModule,
     HttpClientModule,
     ChipModule,
-    TableModule
+    TableModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
