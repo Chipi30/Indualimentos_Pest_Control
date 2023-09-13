@@ -1,29 +1,29 @@
 /* styles.css o styles.scss */
 
 /* Estilos generales para pantallas grandes */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* Agrega estilos para pantallas más grandes aquí */
 }
 
 /* Estilos para pantallas pequeñas */
-@media (max-width: 767px) {
+@media screen and(max-width: 767px) {
   /* Agrega estilos para pantallas más pequeñas aquí */
 }
 
 
 /* Fondo */
-:host body, :host html {
+body, html {
   overflow: hidden;
 }
 
-:host .surface-ground {
+.surface-ground {
   background-image: url("src/assets/layout/images/fondo.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
 
-:host.services {
+.services {
   position: absolute;
   top: 100px; /* Ajusta la distancia desde la parte superior de la página */
   left: 200px; /* Ajusta la distancia desde la izquierda de la página */
@@ -34,7 +34,7 @@
 
 }
 
-:host.clientes {
+.clientes {
   position: absolute;
   top: 100px; /* Ajusta la distancia desde la parte superior de la página */
   left: 200px; /* Ajusta la distancia desde la izquierda de la página */
@@ -45,7 +45,7 @@
 
 }
 
-:host.agenda {
+.agenda {
   position: absolute;
   top: 100px; /* Ajusta la distancia desde la parte superior de la página */
   left: 200px; /* Ajusta la distancia desde la izquierda de la página */
@@ -54,4 +54,25 @@
   border-color: black;
   background-color: white;
 }
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.navItems{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.logo{
+  height: 10vh;
+}
+
+
+
+
 

@@ -1,16 +1,18 @@
 /* styles.css o styles.scss */
 
 /* Estilos generales para pantallas grandes */
-@media (min-width: 768px) {
+@media screen and(min-width: 768px) {
+  .global{
+    width: calc(100%);
+  }
   /* Agrega estilos para pantallas más grandes aquí */
 }
 
 /* Estilos para pantallas pequeñas */
-@media (max-width: 767px) {
+@media screen and(max-width: 767px) {
   /* Agrega estilos para pantallas más pequeñas aquí */
 }
-
-:host ::ng-deep .global{
+.global{
   width: 100%;
   max-width: 100em;
   margin: 0 auto;
@@ -38,7 +40,7 @@
 }
 
 /*Botón*/
-:host ::ng-deep .button {
+.button {
   float: right;
   width: 15%;
   border-radius: 54px;
